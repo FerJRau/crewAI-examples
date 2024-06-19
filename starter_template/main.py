@@ -7,8 +7,7 @@ from textwrap import dedent
 from agents import CustomAgents
 from tasks import CustomTasks
 
-# Install duckduckgo-search for this example:
-# !pip install -U duckduckgo-search
+
 
 from langchain_community.tools import DuckDuckGoSearchRun
 
