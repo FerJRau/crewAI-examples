@@ -13,7 +13,7 @@ class CustomTasks:
         return Task(
             description=dedent(
                 f"""
-            Do something as part of task 1
+            Do something as part of task 1,
             
             {self.__tip_section()}
     
@@ -24,6 +24,7 @@ class CustomTasks:
         """
             ),
             agent=agent,
+            expected_output="Your expected output for task 1 here"
         )
 
     def task_2_name(self, agent):
@@ -38,4 +39,6 @@ class CustomTasks:
         """
             ),
             agent=agent,
+            expected_output="Your expected output for task 2 here"
         )
+
